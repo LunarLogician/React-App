@@ -1,0 +1,39 @@
+.card {
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Space inside the card */
+    margin: 20px; /* Space outside the card */
+    text-align: center; /* Center the text */
+    background-color: #fff; /* White background */
+    transition: transform 0.2s; /* Smooth scale on hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+}
+
+.card img {
+    width: 100px; /* Set a fixed width for the image */
+    height: 100px; /* Set the same value for height */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    margin: 10px 0; /* Add some margin around the image */
+}
+
+.card h1 {
+    font-size: 24px; /* Font size for name */
+    margin: 10px 0; /* Margin around the heading */
+}
+
+.card h2 {
+    font-size: 20px; /* Font size for last name */
+    color: #555; /* Grey color for last name */
+    margin: 5px 0; /* Margin around the heading */
+}
+
+.card p {
+    font-size: 16px; /* Font size for paragraphs */
+    color: #777; /* Dark grey color for text */
+}
+ 
